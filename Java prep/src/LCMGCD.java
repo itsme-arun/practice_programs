@@ -1,3 +1,4 @@
+//find LCM and GCD of Two numbers
 import java.util.Scanner;
 
 public class LCMGCD {
