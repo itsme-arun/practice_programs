@@ -18,8 +18,7 @@ public class Petrol {
             Double wallet_balance1 = 1546.12;
             petrol_quantity1 = wallet_balance1 / petrol_prices1;
             diesel_quantity1 = wallet_balance1 / diesel_prices1;
-            char myUniChar1 ='a';
-            System.out.println(myUniChar1);
+           
 
             System.out.println ("The quantity of petrol that we can buy in " +wallet_balance + " is " + petrol_quantity);
             System.out.println ("The quantity of petrol that we can buy in " +wallet_balance + " is " + diesel_quantity);
