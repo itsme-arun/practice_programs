@@ -18,13 +18,15 @@ public class perfectfactor {
     }
     public static boolean perfectfact(int n){
         boolean result = false; //initializing boolean value as false
-        if(n<4){
-            result = false; //if n less than four it returns false
-        }
-        for(int i =2;i*i<=n;i++){
-            if(n%i == 0){   //if it has factors it return true
-                result = true;
+        int sum = 0;
+        for(int i=1;i<n;i++){
+            if(n%i == 0){ //checking  factors upto n
+                sum += i; //if the above condition satisfies it will add the factors to sum
             }
+        }
+        if(sum == n){
+            result = true;
+        }
         }
         return result;
     }
